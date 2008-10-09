@@ -42,7 +42,6 @@
     </table>
   </gm:template>
 
-  <div style="float: left; width: 50%">
   <gm:template id="myMapDetailsTemplate">
     <div repeat="true">
       <b><gm:text ref="atom:title"/></b><br/>
@@ -50,5 +49,6 @@
       Long: <gm:text ref="geo:long"/>
     </div>
   </gm:template>
-   </div>
+
+
 </gm:page>
